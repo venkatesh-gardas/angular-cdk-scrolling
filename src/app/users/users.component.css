@@ -1,0 +1,24 @@
+.user-scroll-viewport {
+  height: 250px;
+}
+
+.user-item {
+  border: 1px solid #EEEEEE;
+  font-size: 18px;
+  padding: 15px;
+  line-height: 1;
+}
+
+.user-item:hover {
+  color: blueviolet;
+}
+
+.user-id{
+  width: 50px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.user-text {
+  font-style: italic;
+}

@@ -1,0 +1,14 @@
+<cdk-virtual-scroll-viewport itemSize="50" class="user-scroll-viewport">
+  <div *cdkVirtualFor="let user of dataSource">
+
+    <div *ngIf="user" class="user-item">
+      <label class="user-id">{{ user.id }}</label>
+      <span class="user-text">{{ user.name }}</span>
+    </div>
+
+    <div *ngIf="!user">
+      Loading ...
+    </div>
+
+  </div>
+</cdk-virtual-scroll-viewport>
